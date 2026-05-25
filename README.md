@@ -41,14 +41,6 @@ sjogrens-confounding/
 
 Python **3.10.x** is required. All dependencies are pinned to the exact versions used in the study.
 
-Install in a clean virtual environment:
-
-```bash
-python -m venv env
-source env/bin/activate          # On Windows: env\Scripts\activate
-pip install -r requirements.txt
-```
-
 Key libraries (full list in `requirements.txt`):
 
 | Library | Version | Purpose |
@@ -62,25 +54,6 @@ Key libraries (full list in `requirements.txt`):
 | seaborn | X.X.X | Figures |
 | statsmodels | X.X.X | Multivariable regression |
 
-> **Tip:** To export your exact environment, run `pip freeze > requirements.txt` from your working environment.
-
----
-
-## How to reproduce
-
-Run the scripts in order from the repository root:
-
-```bash
-# Step 1 — Preprocessing
-python code/01_preprocessing.py
-
-# Step 2 — Main analysis (PCA, classification, deconfounding, regression)
-python code/02_analysis.py
-```
-
-Output figures will be saved to `results/figures/` and tables to `results/tables/`.
-
----
 
 ## Data availability
 
@@ -110,10 +83,3 @@ If you use this code or data in your work, please cite:
   doi       = {[DOI]}
 }
 ```
-
----
-
-## License
-
-Code: [MIT License](LICENSE)  
-Data: [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) — subject to the data availability conditions above.
