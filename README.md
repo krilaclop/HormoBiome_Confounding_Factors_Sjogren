@@ -45,14 +45,14 @@ Key libraries (full list in `requirements.txt`):
 
 | Library | Version | Purpose |
 |---|---|---|
-| pandas | X.X.X | Data handling |
-| numpy | X.X.X | Numerical operations |
-| scikit-learn | X.X.X | PCA, Random Forest, metrics |
-| shap | X.X.X | SHAP explainability |
-| scipy | X.X.X | Statistical tests |
-| matplotlib | X.X.X | Figures |
-| seaborn | X.X.X | Figures |
-| statsmodels | X.X.X | Multivariable regression |
+| pandas | 3.0.1 | Data handling |
+| numpy | 2.4.3 | Numerical operations |
+| scikit-learn | 1.8.0 | PCA, Random Forest, metrics |
+| shap | 0.51.0 | SHAP explainability |
+| scipy | 1.17.1 | Statistical tests |
+| matplotlib | 0.14.6 | Figures |
+| seaborn | 3.10.8 | Figures |
+| statsmodels | 0.13.2 | Multivariable regression |
 
 
 ## Data availability
