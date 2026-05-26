@@ -57,9 +57,7 @@ Key libraries (full list in `requirements.txt`):
 
 ## Data availability
 
-The dataset includes clinical records from 196 women collected at Virgen Macarena University Hospital (Seville, Spain). Due to patient privacy regulations, raw data cannot be publicly shared.
-
-**Anonymized data** used in the analysis are available in `data/processed/`. Variable definitions and encoding are described in `data/README_data.md`.
+The clinical dataset includes records from 196 women collected at Virgen Macarena and Virgen de Valme University Hospitals (Seville, Spain). Due to strict institutional patient privacy regulations (GDPR) and ethical requirements, raw clinical data cannot be publicly shared.
 
 For access to additional data or further information, please contact the corresponding author:  
 **Aurea Simon-Soro** — [asimon@us.es] — Department of Stomatology, University of Seville / CABIMER.
@@ -79,7 +77,7 @@ If you use this code or data in your work, please cite:
                Lopez-Martin, Carmen and Perez Venegas, Jose Javier and
                Ortega, Juan Antonio and Simon-Soro, Aurea},
   journal   = {[Journal Name]},
-  year      = {2025},
+  year      = {2026},
   doi       = {[DOI]}
 }
 ```
