@@ -19,16 +19,17 @@ This repository contains the code and results associated with the paper. We prop
 sjogrens-confounding/
 │
 ├── data/
-│   ├── processed/          # Anonymized data used for analysis (see Data Availability)
 │   └── README_data.md      # Variable descriptions and codebook
 │
 ├── code/
 │   ├── 01_preprocessing.py # Data loading, cleaning, feature engineering
-│   └── 02_analysis.py      # PCA, Random Forest + SHAP, regression models
+│   ├── 02_PCA.py
+│   ├── 03_RF.py
+│   └── 04_OLS.py
 │
 ├── results/
-│   ├── figures/            # All figures included in the paper
-│   └── tables/             # Supplementary tables
+│   ├── figures/ 
+│   └── tables/         
 │
 ├── README.md
 ├── requirements.txt
@@ -39,7 +40,7 @@ sjogrens-confounding/
 
 ## Requirements
 
-Python **3.10.x** is required. All dependencies are pinned to the exact versions used in the study.
+Python **3.10** is required. All dependencies are pinned to the exact versions used in the study.
 
 Key libraries (full list in `requirements.txt`):
 
@@ -54,6 +55,7 @@ Key libraries (full list in `requirements.txt`):
 | seaborn | 3.10.8 | Figures |
 | statsmodels | 0.13.2 | Multivariable regression |
 
+---
 
 ## Data availability
 
