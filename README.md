@@ -1,7 +1,7 @@
 # 🔍 Data-Driven Disentanglement of Confounding Factors in Sjögren's Syndrome
 
 > Lacasta K., Gandara-Alvarez A., Rus M.J., Cantiga-Silva C., Moreira Navarrete V., Lopez-Martin C., Perez Venegas J.J., Ortega J.A., Simon-Soro A.  
-> *[Computers in Biology and Medicine]*, 2025. DOI: [DOI pending]
+> *[Computers in Biology and Medicine]*, 2026. DOI: [DOI pending]
 
 ---
 
@@ -16,31 +16,28 @@ This repository contains the code and results associated with the paper. We prop
 ## Repository structure
 
 ```
-sjogrens-confounding/
+HormoBiome_Confounding_Factors_Sjogren/
 │
 ├── data/
 │   └── README_data.md      # Variable descriptions and codebook
 │
 ├── code/
 │   ├── 01_preprocessing.py # Data loading, cleaning, feature engineering
-│   ├── 02_PCA.py
-│   ├── 03_RF.py
-│   └── 04_OLS.py
+│   └── 02_analysis.py # PCA, Random Forest + SHAP, Regression, ...
 │
 ├── results/
 │   ├── figures/ 
 │   └── tables/         
 │
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
 
 ## Requirements
 
-Python **3.10** is required. All dependencies are pinned to the exact versions used in the study.
+Python **3.10** was used. All dependencies are pinned to the exact versions used in the study.
 
 Key libraries (full list in `requirements.txt`):
 
