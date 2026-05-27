@@ -1,7 +1,7 @@
 # 🔍 Data-Driven Disentanglement of Confounding Factors in Sjögren's Syndrome
 
 > Lacasta K., Gandara-Alvarez A., Rus M.J., Cantiga-Silva C., Moreira Navarrete V., Lopez-Martin C., Perez Venegas J.J., Ortega J.A., Simon-Soro A.  
-> *[Computers in Biology and Medicine]*, 2025. DOI: [DOI pending]
+> *[Computers in Biology and Medicine]*, 2026. DOI: [DOI pending]
 
 ---
 
