@@ -23,17 +23,14 @@ sjogrens-confounding/
 │
 ├── code/
 │   ├── 01_preprocessing.py # Data loading, cleaning, feature engineering
-│   ├── 02_PCA.py
-│   ├── 03_RF.py
-│   └── 04_OLS.py
+│   └── 02_analysis.py # PCA, Random Forest + SHAP, Regression, ...
 │
 ├── results/
 │   ├── figures/ 
 │   └── tables/         
 │
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
