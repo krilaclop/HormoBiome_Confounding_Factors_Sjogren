@@ -16,7 +16,7 @@ This repository contains the code and results associated with the paper. We prop
 ## Repository structure
 
 ```
-sjogrens-confounding/
+HormoBiome_Confounding_Factors_Sjogren/
 │
 ├── data/
 │   └── README_data.md      # Variable descriptions and codebook
@@ -37,7 +37,7 @@ sjogrens-confounding/
 
 ## Requirements
 
-Python **3.10** is required. All dependencies are pinned to the exact versions used in the study.
+Python **3.10** was used. All dependencies are pinned to the exact versions used in the study.
 
 Key libraries (full list in `requirements.txt`):
 
